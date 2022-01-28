@@ -107,6 +107,7 @@ h1, h2, h3, h4, h5 {
 	display: inline-block;
 	position: fixed;
 	z-index: 10;
+	height: 55px;
 	background-color:rgb(28 28 28 / 30%);
 }
 .header .container{
