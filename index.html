@@ -14,13 +14,13 @@
 		<div class="header">
 			<div class="container">
 				<div class="logo">
-					<img src="images/logo-alt.webp" alt="logo" draggable="false">
+					<img src="images/logo-alt.webp" class="logo-img" alt="logo" draggable="false">
 				</div>
 			<ul class="navbar">
-				<li><a href="#"> Home </a></li>
-				<li><a href="#"> About </a></li>
-				<li><a href="#"> Portfolio </a></li>
-				<li><a href="#"> Services </a></li>
+				<li><a href="#home" class="active"> Home </a></li>
+				<li><a href="#about"> About </a></li>
+				<li><a href="#port"> Portfolio </a></li>
+				<li><a href="#offer"> Services </a></li>
 				<li><a href="#"> Prices </a></li>
 				<li><a href="#"> Team </a></li>
 				<li class="blog">
@@ -29,13 +29,13 @@
 						<li><a href="#"> blog post </a></li>
 					</ul>
 				</li> <!-- ./blog -->
-				<li><a href="#"> Contact </a></li>
+				<li><a href="#contact"> Contact </a></li>
 				<div class="clear"></div>
 			</ul>
 			</div> <!-- ./container -->
 		</div><!-- ./header -->
 
-		<div class="home">
+		<div class="home" id="home">
 			<div class="layer"></div>
 				<div class="container">
 					<div class="desc">
@@ -47,7 +47,7 @@
 				</div> <!-- ./container -->
 			</div> <!-- ./home -->
 
-			<div class="pd-y about">
+			<div class="pd-y about" id="about">
 				<div class="container">
 					<h2 class="head"> welcome to website </h2>
 					<div class="about-item item ltr"> 
@@ -71,7 +71,7 @@
 				</div> <!-- ./containter -->
 			</div> <!-- ./about -->
 
-			<div class="port grey-bg pd-y">
+			<div class="port grey-bg pd-y" id="port">
 				<div class="container">
 					<h2 class="head pd-y"> featured works </h2>
 					<div class="port-item item">
@@ -142,7 +142,7 @@
 					</div> <!-- ./port-item -->
 				</div> <!-- ./container -->
 			</div> <!-- ./port -->
-        <div class="offer pd-y">
+        <div class="offer pd-y" id="offer">
         	<div class="container">
         		<h2 class="head"> what we offer </h2>
         		<div class="offer-item item ltr">
@@ -209,7 +209,7 @@
         	</div> <!-- ./container -->
         </div> <!-- ./services -->
 
-        <div class="contact pd-y">
+        <div class="contact pd-y" id="contact">
         	<div class="container">
         	<h2 class="head"> get in touch </h2>
         	<div class="contact-items">
@@ -252,7 +252,8 @@
         		<li><a href="#"><i class="icon fab fa-google fa-2x"></i></a></li>
         		<li><a href="#"><i class="icon fab fa-youtube fa-2x"></i></a></li>
         	</ul>
-        	<p> copyright &copy; 2017. all rights reseved. designed by <span class="color">colorlib</span> </p>
+        	<p> copyright &copy; <span id="date"></span>. all rights reseved. designed by <span class="color">colorlib</span> </p>
         </div>
 	</body>
+	<script src="scripts/script.js"></script>
 </html>
